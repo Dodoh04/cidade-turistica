@@ -1,0 +1,92 @@
+body {
+    color: black;
+    background-color: #fff;
+    margin-top: 90px;
+    background-image: url(borda.jpg);
+    background-repeat: repeat-x; color #2264E0  #46caf7;
+    line-height: 20px;
+    
+}
+
+#menu {
+    background-image: url(logo1.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    padding-top: 100px;
+    padding-bottom: 15px; /* espaço entre a pagina e o botão*/
+    padding-left: 300px; /* espaço da lateral "paragráfo" do menu*/
+    
+}
+#menu p a:link{
+    background-color: #46caf7; 
+    color: black; /*muda a cor da letra*/
+    font-weight: bold;
+    text-decoration: none;
+    padding: 6px;
+
+}
+#menu p a:hover{
+    text-decoration: none;
+    color: black; /* cor da letra quando passa o mouse*/
+    padding: 10px;
+    font-weight: bold;
+    background-color: #46caf7;
+
+}
+#menu p a:visited{ /* quando já visitado*/
+    color: black;
+    background-color: #46caf7; /*cor botam*/
+    font-weight: bold;
+    text-decoration:none;
+    padding: 6px;
+
+}
+
+#estrutura{
+    width: 870px;
+    margin-left: auto;
+    margin-right: auto;
+}
+a:link {
+    color: black;
+    font-weight: bold;
+   
+}
+a:visited{
+    color: black;
+    font-weight: bold;
+    
+}
+a:hover{
+    color: black;
+    font-weight: bold;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+h2 {
+    font-weight: lighter;
+
+}
+h3{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: oblique;
+}
+img{
+    margin: 5px;
+    padding: 5px;
+    border: solid 3px #46caf7;
+}
+.caixa_texto {
+    text-align: justify;
+    text-indent: 50px; /* margem do texto*/
+}
+li{
+    list-style-image: url(gif.jpg);
+    list-style-position: inside;
+}
